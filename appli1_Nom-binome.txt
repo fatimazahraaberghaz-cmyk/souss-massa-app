@@ -1,0 +1,17 @@
+Projet : Application Géospatiale Web — Application N°1
+Cours   : GIS Programming 2025-2026 — EHTP
+Région  : Souss-Massa
+
+Binôme :
+  - Nom Prénom 1 : [À COMPLÉTER]
+  - Nom Prénom 2 : [À COMPLÉTER]
+
+─────────────────────────────────────────────
+Lien Dépôt GitHub (public) :
+  https://github.com/[username]/souss-massa-app
+
+Lien Application Streamlit Cloud :
+  https://[username]-souss-massa-app.streamlit.app
+─────────────────────────────────────────────
+
+(Remplacer les crochets par vos informations réelles après déploiement)
