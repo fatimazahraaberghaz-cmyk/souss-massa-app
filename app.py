@@ -171,7 +171,6 @@ def load_admin_data():
     return gdfs
 
 
-@st.cache_data(show_spinner=False)
 def get_column_name(gdf, candidates):
     """Retourne le premier nom de colonne valide dans candidates."""
     if gdf is None:
