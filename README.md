@@ -7,7 +7,7 @@
 
 ## 🚀 Application déployée
 
-🔗 **[Accéder à l'application →](https://votre-app.streamlit.app)**  
+🔗 **[Accéder à l'application →](https://souss-massa-app-cspyu3qpxs65wtom7ig2gu.streamlit.app)**  
 *(Remplacer ce lien par l'URL Streamlit Cloud après déploiement)*
 
 ---
