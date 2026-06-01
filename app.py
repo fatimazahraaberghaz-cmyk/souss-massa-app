@@ -53,16 +53,26 @@ st.markdown("""
     border-radius: 8px !important;
     color: #ffffff !important;
   }
-  /* Texte visible dans les menus déroulants */
-  section[data-testid="stSidebar"] .stSelectbox [class*="singleValue"],
-  section[data-testid="stSidebar"] .stSelectbox [class*="placeholder"],
-  section[data-testid="stSidebar"] .stSelectbox [class*="valueContainer"] * {
+  /* ── Menus déroulants sidebar : texte toujours visible ── */
+  section[data-testid="stSidebar"] .stSelectbox p,
+  section[data-testid="stSidebar"] .stSelectbox span,
+  section[data-testid="stSidebar"] .stSelectbox div,
+  section[data-testid="stSidebar"] .stSelectbox input,
+  section[data-testid="stSidebar"] .stSelectbox svg {
     color: #ffffff !important;
-    font-weight: 500 !important;
+    fill: #ffffff !important;
   }
-  /* Dropdown ouvert */
-  [data-baseweb="popover"] li { background: #1a3a5c !important; color: #e8f4f8 !important; }
-  [data-baseweb="popover"] li:hover { background: #0d4f6e !important; color: #ffffff !important; }
+  /* Dropdown ouvert — liste des options */
+  [data-baseweb="popover"],
+  [data-baseweb="popover"] * {
+    background-color: #1a3a5c !important;
+    color: #ffffff !important;
+  }
+  [data-baseweb="popover"] li:hover,
+  [data-baseweb="popover"] [aria-selected="true"] {
+    background-color: #0d4f6e !important;
+    color: #ffffff !important;
+  }
 
   /* Header Banner */
   .hero-banner {
