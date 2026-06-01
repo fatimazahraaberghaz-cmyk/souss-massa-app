@@ -48,11 +48,21 @@ st.markdown("""
   section[data-testid="stSidebar"] .stRadio label { color: #a8d8ea !important; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; }
   section[data-testid="stSidebar"] select,
   section[data-testid="stSidebar"] .stSelectbox div[data-baseweb="select"] {
-    background: rgba(255,255,255,0.08) !important;
-    border: 1px solid rgba(168,216,234,0.3) !important;
+    background: rgba(255,255,255,0.15) !important;
+    border: 1px solid rgba(168,216,234,0.5) !important;
     border-radius: 8px !important;
-    color: #fff !important;
+    color: #ffffff !important;
   }
+  /* Texte visible dans les menus déroulants */
+  section[data-testid="stSidebar"] .stSelectbox [class*="singleValue"],
+  section[data-testid="stSidebar"] .stSelectbox [class*="placeholder"],
+  section[data-testid="stSidebar"] .stSelectbox [class*="valueContainer"] * {
+    color: #ffffff !important;
+    font-weight: 500 !important;
+  }
+  /* Dropdown ouvert */
+  [data-baseweb="popover"] li { background: #1a3a5c !important; color: #e8f4f8 !important; }
+  [data-baseweb="popover"] li:hover { background: #0d4f6e !important; color: #ffffff !important; }
 
   /* Header Banner */
   .hero-banner {
